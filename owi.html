@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lobster"
+      rel="stylesheet"
+    />
+    <title>OwioGraphy</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        color: white;
+      }
+
+      header::before {
+        background: url("https://i.pinimg.com/originals/cb/0b/f1/cb0bf15de18ccd818b139bb19c1ed673.jpg")
+          no-repeat center center/cover;
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        opacity: 0.3;
+      }
+      .head {
+        margin-top: 30px;
+        text-align: center;
+        color: #fffe00;
+        font-family: "Lobster";
+        font-size: 5rem;
+        font-style: italic;
+        text-shadow: 6px 6px rgb(206, 28, 28);
+      }
+      .head:hover {
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+        font-family: "Lobster";
+
+        font-size: 6rem;
+      }
+      .head2 {
+        text-align: center;
+        color: white;
+        font-size: 36px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-weight: bold;
+        top: 0;
+      }
+      .head2:hover {
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+
+        font-size: 44px;
+        font-family: "Lobster";
+      }
+      .spn {
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        font-size: 30px;
+        color: yellow;
+        font-style: italic;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .spn:hover {
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+
+        font-size: 40px;
+        font-family: "Lobster";
+      }
+      img {
+        width: 380px;
+        height: 250px;
+        margin-left: 30px;
+        margin-right: 30px;
+      }
+      .img1:hover {
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+        width: 400px;
+        height: 270px;
+        box-shadow: 5px 5px rgb(206, 28, 28);
+      }
+      .one {
+        display: block;
+      }
+      .span {
+        font-size: 28px;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        color: white;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-style: italic;
+      }
+      .span:hover {
+        transition-property: all;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
+        text-decoration: underline;
+      }
+      .span1 {
+        font-size: 18px;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        color: white;
+        background-color: black;
+        margin: auto;
+        display: flex;
+        padding: 5px;
+
+        font-style: italic;
+      }
+      .flex {
+        display: flex;
+      }
+      .img2 {
+        width: 50px;
+        height: 50px;
+        margin: 0%;
+        padding: 0%;
+      }
+      .img2:hover {
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+
+        width: 60px;
+        height: 60px;
+        margin: 0%;
+        padding: 0%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1 class="head">O w i o g r a p h y</h1>
+      <p class="head2">Transforming Your Dream Into Reality</p>
+      <span class="spn">OUR SERVICES INCLUDE</span>
+      <hr />
+      <hr />
+      <div class="flex">
+        <div class="one">
+          <p class="span">PORTRAITS</p>
+
+          <img
+            class="img1"
+            src="WhatsApp Image 2022-09-04 at 3.39.47 AM.jpeg"
+            alt=""
+          />
+        </div>
+        <div class="two">
+          <p class="span">WALLPAPERS</p>
+          <img class="img1" src="wallpaper.jpeg" alt="" />
+        </div>
+        <div class="three">
+          <p class="span">AESTHETICS</p>
+          <img class="img1" src="aesthetic.jpeg" alt="" />
+        </div>
+      </div>
+      <p class="span">Follow Us</p>
+      <button class="span1">
+        <a href="https://www.instagram.com/owiography/" target="_blank">
+          <img
+            class="img2"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png"
+            alt=""
+          />
+        </a>
+      </button>
+    </header>
+  </body>
+</html>
